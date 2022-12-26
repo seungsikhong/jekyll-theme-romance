@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'ko-KR' }}">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% include head.html %}
+
+<body>
+    <div class="container">
+        {% include header.html %}
+        {% include asidel.html %}
+        <section class="section">
+            <div class="Romance" id="Romance"></div>
+        </section>
+        {% include asider.html %}
+    </div>
+<script>
+    window.addEventListener('DOMContentLoaded', ()=>{
+        typing("Romance","Romance.");
+    })
+
+</script>
+</body>
+</html>

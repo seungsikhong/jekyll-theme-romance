@@ -1,0 +1,22 @@
+
+# Site Settings
+locale: "ko-KR"
+head_title: "hello"
+description: ""
+url: https://seungsikhong.github.io/
+baseurl: ""
+timezone: Asia/Seoul
+footer: Made By Hong
+
+# Site Author
+author:
+  name: 'hong seungsik'
+  email: info@seungsik
+  twitter_username: seungsik
+#  facebook_username: seungsik
+  github_username:  seungsik
+  linkedin_username:  seungsik
+  meetup_name: seungsik
+
+gems:
+  - jekyll-babel

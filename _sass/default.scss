@@ -1,0 +1,130 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+}
+
+/* CSS for PC */
+@media all and (min-width: 1132px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  .header {
+    background-color: red;
+  }
+
+  .nav {
+    background-color: blue;
+  }
+
+  .asidel {
+    background-color: #0a0c15;
+    width: 19.1%;
+    height: 100%;
+  }
+
+  .section {
+    background-color: #06080e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: "Rockness";
+    src: url("/assets/font/Rockness.otf") format("opentype"),
+      url("/assets/font/Rockness.ttf") format("truetype");
+  }
+
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .Romance {
+    font-family: "Rockness";
+    font-size: 200px;
+    text-align: center;
+    border-right: 0.03em solid white;
+    line-height: 150px;
+    animation: cursor 1.2s ease infinite;
+  }
+
+  .asidel {
+    display: none;
+  }
+
+  .asider {
+    display: none;
+  }
+}
+
+/* CSS for Mobile */
+@media all and (min-width: 1132px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  .header {
+    background-color: red;
+  }
+
+  .nav {
+    background-color: blue;
+  }
+
+  .asidel {
+    background-color: #0a0c15;
+    width: 19.1%;
+    height: 100%;
+  }
+
+  .section {
+    background-color: #06080e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: "Rockness";
+    src: url("/assets/font/Rockness.otf") format("opentype"),
+      url("/assets/font/Rockness.ttf") format("truetype");
+  }
+
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .Romance {
+    font-family: "Rockness";
+    font-size: 200px;
+    text-align: center;
+    border-right: 0.03em solid white;
+    line-height: 150px;
+    animation: cursor 1.2s ease infinite;
+  }
+
+  .asidel {
+    display: none;
+  }
+
+  .asider {
+    display: none;
+  }
+}
