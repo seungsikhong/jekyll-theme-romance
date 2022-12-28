@@ -10,6 +10,7 @@ package.json
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache/
 .jekyll
 Gemfile
 Gemfile.lock
@@ -17,3 +18,4 @@ Gemfile.lock
 # specify a folder with slash in the end
 # ignore all files in any directory named temp
 .history/
+vendor/

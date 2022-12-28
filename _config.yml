@@ -18,5 +18,13 @@ author:
   linkedin_username:  seungsik
   meetup_name: seungsik
 
-gems:
-  - jekyll-babel
+# gems:
+#   - jekyll-babel
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
