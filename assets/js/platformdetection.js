@@ -5,8 +5,6 @@ function getOS() {
         windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
         iosPlatforms = ['iPhone', 'iPad', 'iPod'],
         os = null;
-    // debugger;
-    // console.log(window.navigator?.userAgentData?.platform || window.navigator.platform)
     if (macosPlatforms.indexOf(platform) !== -1) {
       os = 'Mac OS';
     } else if (iosPlatforms.indexOf(platform) !== -1) {
@@ -18,7 +16,5 @@ function getOS() {
     } else if (/Linux/.test(platform)) {
       os = 'Linux';
     }
-
     return os;
   }
-  // alert(getOS());
