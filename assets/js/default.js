@@ -2,9 +2,12 @@ const slideMove = () => {
 
 }
 
+const romance = () => {
+    checkCookie('anm') === true ? '' : (setCookie('anm','created',3),typing("Romance","Romance."));
+}
+
 const typing = (id, txt) => {
     let idx = 0;
-    checkCookie('anm') === true ? '' : setCookie('anm','created',3);
     const typingDiv = document.getElementById(id);
     const rmInterval = setInterval(() => {
         typingDiv.innerHTML = typingDiv.innerHTML + txt[idx];
