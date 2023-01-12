@@ -1,1 +1,1 @@
-# seungsikhong.github.io
+# jekyll-theme-romance
