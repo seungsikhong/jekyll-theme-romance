@@ -1,7 +1,7 @@
 
 # Site Settings
 locale: "ko-KR"
-head_title: "hss"
+head_title: "seungsik's blog"
 description: ""
 url: https://seungsikhong.github.io/
 baseurl: ""
@@ -17,6 +17,38 @@ author:
   github_username:  seungsik
   linkedin_username:  seungsik
   meetup_name: seungsik
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
+theme_mode:   # [light|dark]
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: your_full_name
+  email: example@domain.com             # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/username          # change to your twitter homepage
+    - https://github.com/username           # change to your github homepage
+    - https://www.facebook.com/username     # change to your facebook homepage
+    - https://www.linkedin.com/in/username  # change to your linkedin homepage
+
+google_analytics:
+  id:                 # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # gems:
 #   - jekyll-babel
